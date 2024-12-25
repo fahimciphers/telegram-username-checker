@@ -50,7 +50,8 @@ python3 start.py
 
 ### 4. Termux Instructions
 For Termux users:
-- Ensure Python is installed:
+- Download Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/).
+- Install Python:
   ```bash
   pkg install python
   ```
@@ -62,6 +63,24 @@ For Ubuntu/Linux users:
   ```bash
   sudo apt update
   sudo apt install python3 python3-pip
+  ```
+- Clone the repository and follow the steps above.
+
+### 6. Windows Instructions
+For Windows users:
+- Download and install Python from [python.org](https://www.python.org/downloads/).
+- Open Command Prompt or PowerShell.
+- Clone the repository using Git or download the ZIP file from the GitHub page.
+- Navigate to the script directory and run:
+  ```bash
+  python start.py
+  ```
+
+### 7. macOS Instructions
+For macOS users:
+- Ensure Python 3 is installed. Use Homebrew if necessary:
+  ```bash
+  brew install python3
   ```
 - Clone the repository and follow the steps above.
 
@@ -144,4 +163,6 @@ This project is licensed under the MIT License.
 
 ## Disclaimer
 This tool is designed for educational purposes only. Use responsibly and avoid violating any platform's policies.
+
+
 
